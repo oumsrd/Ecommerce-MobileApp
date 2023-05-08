@@ -1,0 +1,28 @@
+{
+    "categories":[
+        {
+            "name": "Women Dress",
+            "subcategory":[
+                "Wedding & Event",
+                "Tops & Sets",
+                "Watches"
+            ]
+        },
+        {
+            "name": "men Dress",
+            "subcategory":[
+                "Wedding & Event",
+                "Tops & Sets",
+                "Watches"
+            ]
+        },
+        {
+            "name": "Computer & Accesories",
+            "subcategory":[
+                "Laptp",
+                "Gamin PC",
+                "Official aquipment"
+            ]
+        }
+    ]
+}
