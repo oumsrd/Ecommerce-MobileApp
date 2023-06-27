@@ -1,10 +1,10 @@
 import 'package:test_flutter/seller/Consts/const.dart';
 
-Widget loadingIndicator(){
+Widget loadingIndicator({circleColor = purpleColor }){
 
-  return const Center(
+  return Center(
     child: CircularProgressIndicator(
-      valueColor: AlwaysStoppedAnimation(purpleColor),
+      valueColor: AlwaysStoppedAnimation(circleColor),
     ),
 
   );

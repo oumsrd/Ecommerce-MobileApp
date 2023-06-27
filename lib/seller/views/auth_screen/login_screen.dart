@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:test_flutter/seller/Consts/const.dart';
 import 'package:test_flutter/seller/Controller/auth_controller.dart';
 import 'package:test_flutter/seller/views/home_screen/home.dart';
+import 'package:test_flutter/seller/views/profile_screen/test.dart';
 import 'package:test_flutter/seller/widgets/loading_indicator.dart';
 import 'package:test_flutter/seller/widgets/our_button.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -65,11 +66,11 @@ class LoginScreen extends StatelessWidget {
                       child: controller.isloading.value ? loadingIndicator() :  ourButton(
                         title: login,
                         onPress: () async{
-                          //Get.to(() => const Home());
+                          Get.to(() => const Home());
                           controller.isloading(true);
                             await controller.loginMethod(context: context).then((value) {
                               if(value !=null) {
-                                VxToast.show(context, msg: "logged in");
+                                //VxToast.show(context, msg: "logged in");
                                 controller.isloading(false);
                                 Get.offAll(() => const Home());
                               } else {

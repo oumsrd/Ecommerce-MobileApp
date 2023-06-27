@@ -1,8 +1,9 @@
 import 'package:test_flutter/seller/Consts/const.dart';
 import 'package:test_flutter/seller/widgets/normal_text.dart';
 
-Widget customTextField({label , hint, controller,isDesc = false}){
+Widget customTextField({label , hint, TextEditingController? controller,isDesc = false}){
   return TextFormField(
+    controller: controller,
     maxLines: isDesc ? 4 : 1,
     decoration: InputDecoration(
       isDense: true,

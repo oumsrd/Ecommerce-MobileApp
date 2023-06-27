@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
     var controller = Get.put(HomeContoller());
 
     var navScreens = [
-      const HomeScreen(),const ProductsScreen(),const OrdersScreen(),const ProfileScreen()];
+      const HomeScreen(),const ProductsScreen(),const OrdersScreen(), ProfileScreen()];
 
     var bottomNavbar = [
       const BottomNavigationBarItem(
@@ -47,7 +47,7 @@ class Home extends StatelessWidget {
           type: BottomNavigationBarType.fixed,
           items: bottomNavbar,
           selectedItemColor : red ,
-          unselectedItemColor: purpleColor,
+          unselectedItemColor: whiteColor,
           ),
       ),
       

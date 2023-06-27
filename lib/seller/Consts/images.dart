@@ -18,3 +18,6 @@ const hommeimg2 = "assets/images/style2_homme.jpg";
 const telephone = "assets/images/telephone.jpg";
 const watch = "assets/images/watch.jpg";
 const shopfille = "assets/images/shopfille.jpg";
+const pack = "assets/images/packe.png";
+const welcomImg = "assets/images/welcomimg.jpg";
+const loginImg = "assets/images/loginImage.jpeg";
